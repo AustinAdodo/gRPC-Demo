@@ -1,0 +1,3 @@
+obj\Debug\net5.0/MaintenanceLog.cs \
+obj\Debug\net5.0/MaintenanceLogGrpc.cs: C:/Users/Christy/.nuget/packages/grpc.tools/2.32.0/build/native/include/google/protobuf/Empty.proto\
+ ../DotNETgRPCServiceInteractionDemo/Protos/MaintenanceLog.proto

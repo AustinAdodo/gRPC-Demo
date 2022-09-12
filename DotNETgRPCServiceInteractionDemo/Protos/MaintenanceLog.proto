@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+import "google/protobuf/Empty.proto";
+
+option csharp_namespace = "DotNETgRPCServiceInteractionDemo";
+
+package Aircraftlog;
+
+
+////MiantenanceLogs for an Aircraft Company.
+service MaintenanceLogService {
+ 
+  rpc CreateLog (LogParam) returns (LogParam);
+  rpc RetrieveLogs (google.protobuf.Empty) returns (LogParams);
+}
+
+message LogParam {
+  string Engr_Full_Name = 1;
+  string Item = 2;
+  int32 ItemId = 3;
+  string date = 4;
+  bool IsCompleted= 5;
+  int32 id = 6;
+  string status = 7;
+}
+//message voided{}
+
+// responses.
+message LogParams {
+  repeated LogParam Logs = 1;
+  string status=2;
+}
