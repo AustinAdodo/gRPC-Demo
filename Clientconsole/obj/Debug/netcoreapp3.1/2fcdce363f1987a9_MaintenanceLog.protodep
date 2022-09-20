@@ -1,0 +1,3 @@
+obj\Debug\netcoreapp3.1/MaintenanceLog.cs \
+obj\Debug\netcoreapp3.1/MaintenanceLogGrpc.cs: C:/Users/Christy/.nuget/packages/grpc.tools/2.49.0-pre3/build/native/include/google/protobuf/Empty.proto\
+ ../GrpcSmallPacketStreaming/Protos/MaintenanceLog.proto
